@@ -4,7 +4,7 @@
     <div class="headpic">
       <div class="container headtitle">
         <div class="title">
-          <h1 href="/blog">AiHxym</h1>
+          <h1 href="/blog">Chunibyo</h1>
         </div>
       </div>
     </div>
@@ -17,12 +17,12 @@
           <side-section>
             <div slot="sidecontent">
               <h3>
-                <a href="">AiH</a>
+                <a href="">JhonXY</a>
                 <span class="cat-desc">Just A Coding Peasant</span>
               </h3>
               <div class="pres">
                 <a href="" class="pic">
-                  <img src="/static/card.jpg" alt="我的头像">
+                  <img src="/static/images/card.png" alt="我的头像">
                 </a>
                 <a href="" class="detail">
                 <span class="item-info">

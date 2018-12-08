@@ -1,8 +1,5 @@
 <template lang="html">
   <div class="index" >
-    <div id="logo" class="selectDisable">
-    <img src="@/assets/logo.svg">
-    </div>
     <div id="wrapper">
       <h1>Home</h1>
       <h2>just a Coding Peasant</h2>
@@ -98,6 +95,7 @@
     'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
     color: #333;
   }
+
   #wrapper {
     position: absolute;
     left: 0;
@@ -111,19 +109,8 @@
     -moz-user-select: none;
     user-select: none;
   }
-  #logo {
-    position: absolute;
-    left: 0;
-    width: 180px;
-    text-align: center;
-    top: 20%;
-    left: 50%;
-    margin-left: -90px;
-    margin-top: -90px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+
+
   h1 {
     font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
