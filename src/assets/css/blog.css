@@ -1,6 +1,6 @@
 .headpic {
-  height: 380px;
-  background: url(/static/images/shore.jpg) center -52px no-repeat;
+  height: 280px;
+  background: url(/static/images/shore.jpg) center -60px no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;

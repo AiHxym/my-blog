@@ -2,9 +2,9 @@
   <div class="foot">
     <div class="container">
       <run-time></run-time>
-      <p>Made
-        <i class="fa fa-heart"></i>
-        By JhonXY.
+      <p>Copyright
+        <i class="fa fa-copyright"></i>
+        2018 AiHxym.cn. All Rights Reserved.
       </p>
     </div>
   </div>

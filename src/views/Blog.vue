@@ -4,7 +4,7 @@
     <div class="headpic">
       <div class="container headtitle">
         <div class="title">
-          <h1 href="/blog">Chunibyo</h1>
+          <h1 href="/blog">AiHxym</h1>
         </div>
       </div>
     </div>
@@ -17,7 +17,7 @@
           <side-section>
             <div slot="sidecontent">
               <h3>
-                <a href="">JhonXY</a>
+                <a href="">Hayim</a>
                 <span class="cat-desc">Just A Coding Peasant</span>
               </h3>
               <div class="pres">
@@ -26,32 +26,32 @@
                 </a>
                 <a href="" class="detail">
                 <span class="item-info">
-                  <span class="item-title">XY</span>
-                  <span class="item-desc">2017</span>
+                  <span class="item-title">Hayim</span>
+                  <span class="item-desc">2018</span>
                 </span>
                 </a>
               </div>
               <div class="social">
-                <a data-balloon="微博" href="http://weibo.com/" rel="nofollow" class="icon"><i class="fa fa-weibo" style="background-color: #dd4b39"></i></a>
-                <a data-balloon="github" href="https://github.com/JhonXY" rel="nofollow" class="icon"><i class="fa fa-github" style="background-color: #55acee;"></i></a>
+                <a href="http://weibo.com/" rel="nofollow" class="icon"><i class="fa fa-weibo" style="background-color: #dd4b39"></i></a>
+                <a href="https://github.com/AiHxym" rel="nofollow" class="icon"><i class="fa fa-github" style="background-color: #55acee;"></i></a>
                 <el-popover
-                  ref="youxiang"
+                  ref="email"
                   placement="bottom"
                   title="我的邮箱"
                   width="50"
-                  trigger="hover"
-                  content="1076849402@qq.com">
+                  trigger="click"
+                  content="xym6336@gmail.com">
                 </el-popover>
-                <a data-balloon="邮箱" href="javascript:;" rel="nofollow" class="icon" v-popover:youxiang><i class="fa fa-envelope" style="background-color: #3b5998"></i></a>
+                <a href="javascript:;" rel="nofollow" class="icon" v-popover:email><i class="fa fa-envelope" style="background-color: #3b5998"></i></a>
                 <el-popover
-                  ref="jianli"
+                  ref="cv"
                   placement="bottom"
                   title="我的简历"
                   width="50"
                   trigger="hover"
                   content="暂无内容">
                 </el-popover>
-                <a data-balloon="微博" href="javascript:;" rel="nofollow" class="icon" v-popover:jianli><i class="fa fa-address-card-o" style="background-color: #80b953"></i></a>
+                <a href="javascript:;" rel="nofollow" class="icon" v-popover:cv><i class="fa fa-address-card-o" style="background-color: #80b953"></i></a>
               </div>
             </div>
           </side-section>
@@ -113,6 +113,10 @@
     },
     data() {
       return {
+        imgs:[
+          'url(/static/images/shore.jpg)',
+          'url(/static/images/xiyang.jpg)'
+        ],
         tags: [],
         messagesList: [],
         tag: '',
@@ -123,6 +127,10 @@
       this.getMessages()
     },
     methods: {
+      getRandomImg(){
+        let img = this.imgs[Math.floor(Math.random()*this.imgs.length)];
+        return img;
+      },
       // 利用监听获取子组件数据，并传给另外的子组件
       shareTags(msg) {
         this.tags = msg

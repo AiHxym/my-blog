@@ -16,10 +16,12 @@
     "axios": "^0.18.0",
     "element-ui": "^2.4.11",
     "headroom.js": "^0.9.4",
+    "mavon-editor": "^2.6.17",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "wysiwyg.css": "^0.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
