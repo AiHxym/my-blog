@@ -5,6 +5,11 @@ import Blog from '@/views/Blog'
 import Messages from '@/views/Messages'
 import About from '@/views/About'
 import Article from '@/views/Article'
+import admin from '@/admin/admin'
+import adminArticle from '@/admin/adminArticle'
+import change from '@/admin/change'
+import adminArticleList from '@/admin/adminArticleList'
+import login from '@/admin/login'
 
 Vue.use(Router)
 
@@ -40,6 +45,25 @@ export default new Router({
       path: '/article',
       name: 'Article',
       component: Article
+    },
+
+    {
+      path: '/admin',
+      name: 'Admin',
+      component: admin,
+      // redirect: '/admin/adminArticle',
+      redirect: { name: 'adminArticle'},
+      children: [
+        { path: 'adminArticle', component: adminArticle, name: 'adminArticle'},
+        { path: 'adminChange', component: change, name: 'adminChange'},
+        { path: 'adminArticleList', component: adminArticleList, name: 'adminArticleList'},
+      ]
+    },
+
+    {
+      path: '/login',
+      name: 'Login',
+      component: login,
     }
   ]
 })
