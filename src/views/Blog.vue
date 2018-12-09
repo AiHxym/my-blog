@@ -4,7 +4,7 @@
     <div class="headpic">
       <div class="container headtitle">
         <div class="title">
-          <h1 href="/blog">AiHxym</h1>
+          <a href="/blog" class="selectDisable"><h1>AiHxym</h1></a>
         </div>
       </div>
     </div>

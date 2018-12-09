@@ -4,7 +4,7 @@
     <div class="headpic">
       <div class="container headtitle full">
         <div class="title">
-          <h1 href="/blog">AiHxym</h1>
+          <a href="/blog" class="selectDisable"><h1>AiHxym</h1></a>
         </div>
       </div>
     </div>
@@ -16,7 +16,7 @@
               <div style="overflow:hidden;margin-bottom:20px;">
                 <h3 class="hestia-title text-center">Leave a Reply</h3>
 
-                <textarea ref='textBox' spellcheck='false' row="1" placeholder="Hey Buddy" v-model="message" class="msg-content" cols="45" rows="8" aria-required="true"></textarea>
+                <textarea ref='textBox' spellcheck='false' row="1" placeholder="Hey Buddy! 听说你也是一个广♂东♂人" v-model="message" class="msg-content" cols="45" rows="8" aria-required="true"></textarea>
                 <div class="input">
                   <input type="text" placeholder="你的名字" v-model.trim="name" class="msg-name">
                   <input type="email" placeholder="你的邮箱" v-model.trim="email" class="msg-email">
