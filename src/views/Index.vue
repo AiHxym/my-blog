@@ -2,7 +2,7 @@
   <div class="index" >
     <div id="wrapper">
       <h1>Home</h1>
-      <h2>just a Coding Peasant</h2>
+      <h2> Hayim, not only a coder</h2>
       <p><router-link to="/blog">Blog</router-link></p>
       <p><a href="https://github.com/AiHxym">Github</a></p>
       <p><a href="https://www.zhihu.com/people/X--Y--M/activities">知乎</a></p>
