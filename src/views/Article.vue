@@ -14,7 +14,7 @@
         <div class="full-content">
           <header>
             <h2>{{article.title}}</h2>
-            <p class="byline">by JhonXY
+            <p class="byline">by Hayim
               <span class="sep">|</span>
               <span class="date">{{article.createDate}}</span>
             </p>
