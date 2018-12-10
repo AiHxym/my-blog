@@ -21,7 +21,7 @@
                   github地址 : <a href="https://github.com/AiHxym/my-blog">https://github.com/AiHxym/my-blog</a>
                 </p>
                 <p style="margin-bottom: 20px;">
-                  server部分地址: <a href="https://github.com/JhonXY/vue-blog-server">https://github.com/JhonXY/vue-blog-server</a>
+                  server部分地址: <a href="https://github.com/JhonXY/vue-blog-server">https://github.com/AiHxym/my-blog-server</a>
                 </p>
                 <img id="py" src="/static/images/py.jpg" alt="交易♂交易">
               </div>
